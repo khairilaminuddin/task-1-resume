@@ -21,12 +21,15 @@
       </div>
 
       <div class="flex items-center space-x-6">
-        <div class="ml-6 mt-4 mb-4 bg-lime-700 p-2 rounded-[15px]">
-          <div class="flex items-center space-x-4 text-gray-950">
+        <div
+          class="ml-10 mt-4 mb-4 p-2 rounded-[10px]"
+          style="background-color: #7d9a5e"
+        >
+          <div class="flex items-center space-x-4 text-gray-950 ml-5">
             <div class="flex space-x-20">
               <div class="flex flex-col items-start space-y-1">
                 <div class="flex items-center space-x-2">
-                  <div class="bg-orange-200 p-2 rounded-lg">
+                  <div class="bg-orange-200 p-1 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-6 w-6"
@@ -42,16 +45,16 @@
                       />
                     </svg>
                   </div>
-                  <div class="flex flex-col text-gray-50">
+                  <div class="flex flex-col text-gray-50 text-xs">
                     <span>PHONE :</span>
-                    <div class="text-sm text-gray-50">+60 167627180</div>
+                    <div class="text-xs text-gray-50">+60 167627180</div>
                   </div>
                 </div>
               </div>
 
-              <div class="flex flex-col items-start space-y-1">
+              <div class="flex flex-col items-start space-y-1 mr-5">
                 <div class="flex items-center space-x-2">
-                  <div class="bg-orange-200 p-2 rounded-lg">
+                  <div class="bg-orange-200 p-1 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-6 w-6"
@@ -67,9 +70,9 @@
                       />
                     </svg>
                   </div>
-                  <div class="flex flex-col text-gray-50">
+                  <div class="flex flex-col text-gray-50 text text-xs">
                     <span>EMAIL :</span>
-                    <div class="text-sm text-gray-50">
+                    <div class="text-xs text-gray-50">
                       khairil1721@gmail.com
                     </div>
                   </div>
@@ -81,16 +84,17 @@
       </div>
 
       <div
-        class="mr-10 rounded-br-[150px] p-6"
+        class="mr-10 rounded-br-[80px] p-6"
         style="background-color: #b4b977"
       >
-        <h1 class="text-3xl font-bold text-gray-800">KHAIRIL AMINUDDIN</h1>
+        <h1 class="text-3xl font-bold text-gray-800">
+          <p>KHAIRIL</p>
+          <p>AMINUDDIN</p>
+        </h1>
         <p class="text-lg text-gray-600">Graphic Design & Web Design</p>
         <div class="p-6">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- About Me Section -->
-            <div class="flex flex-col">
-              <h2 class="text-sm font-bold text-green-700 mb-4">About Me</h2>
+          <div class="flex flex-col md:flex-row gap-6">
+            <div class="flex flex-col md:w-1/2">
               <p class="text-sm text-gray-600">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -98,11 +102,9 @@
               </p>
             </div>
 
-            <!-- Horizontal Divider (Visible on Medium and Larger Screens) -->
-            <div class="md:block hidden border-t-2 border-green-700 mx-4"></div>
+            <div class="md:block hidden border-l-2 border-green-700 mx-4"></div>
 
-            <!-- Achievements Section -->
-            <div class="flex flex-col">
+            <div class="flex flex-col md:w-1/2">
               <h2 class="text-sm font-bold text-green-700 mb-4">
                 Achievements
               </h2>
@@ -115,25 +117,117 @@
         </div>
       </div>
 
-      <div class="p-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <h2 class="text-xl font-bold text-green-700 mb-4">Education</h2>
-            <p class="text-lg text-gray-800 font-semibold">
-              DATUK AWANG JABAR SECONDARY SCHOOL
-            </p>
-            <p class="text-gray-600">MALAYSIAN EXAMINATION CERTIFICATE</p>
-            <p class="text-gray-500 text-sm">2020-2025</p>
+      <div class="container mr-5 ml-5 p-1">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="relative space-y-8">
+            <div class="bg-white">
+              <h2 class="text-xl font-bold text-gray-800 mb-4">EDUCATION</h2>
+              <div class="space-y-4 text-sm">
+                <div>
+                  <p class="font-medium text-gray-700">2020-2025</p>
+                  <p class="text-gray-600">University of Oxford</p>
+                  <p class="text-gray-600">Master in Computer Science</p>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-700">2015-2020</p>
+                  <p class="text-gray-600">University of Cambridge</p>
+                  <p class="text-gray-600">Bachelor in Computer Science</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute right-0 top-0 h-32 border-r-2 border-green-700 hidden lg:block"
+            ></div>
+
+            <div class="bg-[#7d9a5e] p-6 rounded-t-[50px] shadow-md">
+              <h2 class="text-xl font-bold text-white mb-6">EXPERTISE</h2>
+              <div class="grid grid-cols-2 gap-4 text-sm">
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">Photoshop</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 75%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">Illustrator</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 50%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">After Effect</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 33%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">Figma</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 66%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">HTML & CSS</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 83%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <span class="text-white">JavaScript</span>
+                    <div class="w-2/3 h-2 bg-gray-300 rounded-full">
+                      <div
+                        class="h-full bg-white rounded-full"
+                        style="width: 25%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <h2 class="text-xl font-bold text-green-700 mb-4">
-              Work Experience
-            </h2>
-            <p class="text-lg text-gray-800 font-semibold">Your Job Title</p>
-            <p class="text-gray-600">Company Name Here</p>
-            <ul class="list-disc ml-6 text-gray-600 text-sm">
-              <li>Responsibility or achievement here.</li>
-            </ul>
+
+          <div class="space-y-8">
+            <div class="bg-white">
+              <h2 class="text-xl font-bold text-gray-800 mb-4">
+                WORK EXPERIENCES
+              </h2>
+              <div class="space-y-4 text-sm">
+                <div>
+                  <p class="font-medium text-gray-700">2020-2025</p>
+                  <p class="text-gray-600">Software Engineer</p>
+                  <p class="text-gray-600">Tech Corp - London</p>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-700">2018-2020</p>
+                  <p class="text-gray-600">Intern</p>
+                  <p class="text-gray-600">Web Solutions Ltd - Manchester</p>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-700">2015-2018</p>
+                  <p class="text-gray-600">Freelancer</p>
+                  <p class="text-gray-600">Various Projects - Remote</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
